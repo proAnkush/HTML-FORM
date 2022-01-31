@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0px;
+  width: 100vw;
+  height: 90vh;
+}
+body {
+  font-family: "Acme", sans-serif;
+}
+#navbar {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  height: 2em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+#form__parent {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#registerForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+  flex: 0.3;
+  border: 1px solid gray;
+  min-width: 400px;
+}
+.form__input {
+  background-color: #e4e4e4;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin: 1.4em 1.4em;
+  background-color: white;
+  border: none;
+  font-size: 1.3em;
+  width: 80%;
+  border: 1px solid gray;
+}
+.form__field:focus {
+  outline-width: 0px;
+}
+#submitButton {
+  border-radius: 30px;
+  padding: 10px;
+  margin: 30px 10px;
+  border: none;
+  font-size: 18px;
+  width: 40%;
+  background-color: blueviolet;
+  color: white;
+}
+
+#submitButton:hover {
+  background-color: white;
+  color: blue;
+}
